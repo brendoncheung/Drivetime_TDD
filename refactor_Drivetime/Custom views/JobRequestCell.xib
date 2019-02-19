@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JobRequestCell" customModule="refactor_Drivetime" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="190"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drivetime and Co" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAO-b9-b89">
+                    <rect key="frame" x="0.0" y="0.0" width="184" height="28.5"/>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="24"/>
+                    <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2yJ-g1-wg9">
+                    <rect key="frame" x="16" y="40.5" width="257" height="65.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From: Chicago International Airport" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6n-PZ-otq">
+                            <rect key="frame" x="0.0" y="0.0" width="218.5" height="16.5"/>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                            <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To: Fort Wayne International Airport" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9G-Su-Zss">
+                            <rect key="frame" x="0.0" y="24.5" width="221" height="16.5"/>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                            <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cargo: Premium Wine from local vineyard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEg-jv-27e">
+                            <rect key="frame" x="0.0" y="49" width="257" height="16.5"/>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                            <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65.5" id="krr-Bl-VQj"/>
+                    </constraints>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact: 611thesolutions@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7p-TY-wPB">
+                    <rect key="frame" x="125" y="146.5" width="235" height="16.5"/>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Post: 01/30/2019 21:52:26" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfz-i9-pgG">
+                    <rect key="frame" x="192.5" y="171.5" width="167.5" height="16.5"/>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$2000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibS-2x-umW">
+                    <rect key="frame" x="303" y="6" width="49" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="cnp-De-Cpb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="17"/>
+                    <color key="textColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qAO-b9-b89" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="2FY-BH-5GD"/>
+                <constraint firstItem="ibS-2x-umW" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="6" id="3w9-nt-gZl"/>
+                <constraint firstItem="rfz-i9-pgG" firstAttribute="top" secondItem="v7p-TY-wPB" secondAttribute="bottom" constant="8.5" id="Bwv-w2-WDP"/>
+                <constraint firstItem="qAO-b9-b89" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Yrg-yv-Wri"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ibS-2x-umW" secondAttribute="trailing" constant="8" id="e8I-xT-Vmo"/>
+                <constraint firstItem="rfz-i9-pgG" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="f8J-bm-z9i"/>
+                <constraint firstItem="v7p-TY-wPB" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="f8w-On-WJ9"/>
+                <constraint firstItem="2yJ-g1-wg9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="fum-oE-WuU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="rfz-i9-pgG" secondAttribute="bottom" constant="2" id="gnA-mU-4g2"/>
+                <constraint firstItem="2yJ-g1-wg9" firstAttribute="top" secondItem="qAO-b9-b89" secondAttribute="bottom" constant="12" id="imS-4W-HHN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="businessEmail" destination="v7p-TY-wPB" id="C1b-8Q-8Pb"/>
+                <outlet property="businessName" destination="qAO-b9-b89" id="yyR-To-rVH"/>
+                <outlet property="dropOffAddress" destination="N9G-Su-Zss" id="GpC-di-O0A"/>
+                <outlet property="loadDescription" destination="pEg-jv-27e" id="znx-fH-nlY"/>
+                <outlet property="pickUpAddress" destination="J6n-PZ-otq" id="fTz-5D-tA8"/>
+                <outlet property="priceOffered" destination="ibS-2x-umW" id="e63-xE-zeN"/>
+                <outlet property="timestamp" destination="rfz-i9-pgG" id="sJM-1b-y0t"/>
+            </connections>
+            <point key="canvasLocation" x="46" y="573"/>
+        </view>
+    </objects>
+</document>
