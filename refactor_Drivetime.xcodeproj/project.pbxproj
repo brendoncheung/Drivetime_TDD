@@ -32,6 +32,9 @@
 		4BBA30772216195800F1944F /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA30762216195800F1944F /* KeychainPasswordItem.swift */; };
 		4BBA30792216198100F1944F /* KeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA30782216198100F1944F /* KeychainConfiguration.swift */; };
 		4BBA307D221729B800F1944F /* testJobRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA307C221729B800F1944F /* testJobRequestViewController.swift */; };
+		4BDDBA30222104B70048480E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BDDBA2F222104B70048480E /* GoogleService-Info.plist */; };
+		B010DC8DF54E1E8402204ADE /* Pods_refactor_DrivetimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE06C10CD4584A032100CEE /* Pods_refactor_DrivetimeTests.framework */; };
+		B65D211B42CDAD633FCDBDA3 /* Pods_refactor_Drivetime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56F5893ECF490E619E2F027 /* Pods_refactor_Drivetime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049B94D49A8F428201F607BB /* Pods-refactor_Drivetime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-refactor_Drivetime.release.xcconfig"; path = "Pods/Target Support Files/Pods-refactor_Drivetime/Pods-refactor_Drivetime.release.xcconfig"; sourceTree = "<group>"; };
+		2FE06C10CD4584A032100CEE /* Pods_refactor_DrivetimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_refactor_DrivetimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B03F8872203A79F0068B422 /* testLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testLoginViewController.swift; sourceTree = "<group>"; };
 		4B1C206D2212230B0074581E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		4B1C206F221226D40074581E /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +91,12 @@
 		4BBA30762216195800F1944F /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
 		4BBA30782216198100F1944F /* KeychainConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainConfiguration.swift; sourceTree = "<group>"; };
 		4BBA307C221729B800F1944F /* testJobRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testJobRequestViewController.swift; sourceTree = "<group>"; };
+		4BDDBA2F222104B70048480E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4BDDBA5D2221090F0048480E /* refactor_Drivetime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = refactor_Drivetime.entitlements; sourceTree = "<group>"; };
+		718EB95D85B54BF3F2F8E047 /* Pods-refactor_Drivetime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-refactor_Drivetime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-refactor_Drivetime/Pods-refactor_Drivetime.debug.xcconfig"; sourceTree = "<group>"; };
+		B56F5893ECF490E619E2F027 /* Pods_refactor_Drivetime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_refactor_Drivetime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C040E0FCFD8C4A12C98BA3 /* Pods-refactor_DrivetimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-refactor_DrivetimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-refactor_DrivetimeTests/Pods-refactor_DrivetimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		E98C8B4298E123C88B550BA1 /* Pods-refactor_DrivetimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-refactor_DrivetimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-refactor_DrivetimeTests/Pods-refactor_DrivetimeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65D211B42CDAD633FCDBDA3 /* Pods_refactor_Drivetime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B010DC8DF54E1E8402204ADE /* Pods_refactor_DrivetimeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +144,8 @@
 				4B90955621F90F5900479F8F /* refactor_Drivetime */,
 				4B90956B21F90F5B00479F8F /* refactor_DrivetimeTests */,
 				4B90955521F90F5900479F8F /* Products */,
+				D16E1DD8AED8189177863160 /* Pods */,
+				9227E137B98B47E3A8CE60F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,18 +161,20 @@
 		4B90955621F90F5900479F8F /* refactor_Drivetime */ = {
 			isa = PBXGroup;
 			children = (
-				4BBA30752216193200F1944F /* keychain */,
+				4BDDBA5D2221090F0048480E /* refactor_Drivetime.entitlements */,
+				4BDDBA2F222104B70048480E /* GoogleService-Info.plist */,
+				4BBA30752216193200F1944F /* Keychain */,
 				4B1C2073221228770074581E /* Font */,
 				4B90955721F90F5900479F8F /* AppDelegate.swift */,
 				4B90955B21F90F5900479F8F /* Main.storyboard */,
 				4B90955E21F90F5B00479F8F /* Assets.xcassets */,
 				4B90956021F90F5B00479F8F /* LaunchScreen.storyboard */,
 				4B90956321F90F5B00479F8F /* Info.plist */,
-				4B9095C4220252C600479F8F /* service */,
+				4B9095C4220252C600479F8F /* Service */,
 				4B9095B021FFF86E00479F8F /* Controller */,
 				4B90957E21F910D000479F8F /* Model */,
 				4B9095C022023C6400479F8F /* Custom views */,
-				4B9095C32202524200479F8F /* utils */,
+				4B9095C32202524200479F8F /* Utils */,
 			);
 			path = refactor_Drivetime;
 			sourceTree = "<group>";
@@ -222,21 +239,21 @@
 			path = "Custom views";
 			sourceTree = "<group>";
 		};
-		4B9095C32202524200479F8F /* utils */ = {
+		4B9095C32202524200479F8F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				4B9095C12202522200479F8F /* DrivetimeEndpoints.swift */,
 			);
-			path = utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
-		4B9095C4220252C600479F8F /* service */ = {
+		4B9095C4220252C600479F8F /* Service */ = {
 			isa = PBXGroup;
 			children = (
 				4B90957A21F90FB200479F8F /* DrivetimeAPIClient.swift */,
 				4B9095B922022BD200479F8F /* JobRequestDataProvider.swift */,
 			);
-			path = service;
+			path = Service;
 			sourceTree = "<group>";
 		};
 		4B9095C5220252E900479F8F /* service */ = {
@@ -248,14 +265,34 @@
 			path = service;
 			sourceTree = "<group>";
 		};
-		4BBA30752216193200F1944F /* keychain */ = {
+		4BBA30752216193200F1944F /* Keychain */ = {
 			isa = PBXGroup;
 			children = (
 				4BBA30762216195800F1944F /* KeychainPasswordItem.swift */,
 				4BBA30782216198100F1944F /* KeychainConfiguration.swift */,
 			);
-			name = keychain;
+			name = Keychain;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9227E137B98B47E3A8CE60F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B56F5893ECF490E619E2F027 /* Pods_refactor_Drivetime.framework */,
+				2FE06C10CD4584A032100CEE /* Pods_refactor_DrivetimeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D16E1DD8AED8189177863160 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				718EB95D85B54BF3F2F8E047 /* Pods-refactor_Drivetime.debug.xcconfig */,
+				049B94D49A8F428201F607BB /* Pods-refactor_Drivetime.release.xcconfig */,
+				E98C8B4298E123C88B550BA1 /* Pods-refactor_DrivetimeTests.debug.xcconfig */,
+				E3C040E0FCFD8C4A12C98BA3 /* Pods-refactor_DrivetimeTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +302,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B90957121F90F5B00479F8F /* Build configuration list for PBXNativeTarget "refactor_Drivetime" */;
 			buildPhases = (
+				FB6726DF56B949D4ABA33548 /* [CP] Check Pods Manifest.lock */,
 				4B90955021F90F5900479F8F /* Sources */,
 				4B90955121F90F5900479F8F /* Frameworks */,
 				4B90955221F90F5900479F8F /* Resources */,
+				330380D2F267F82162725785 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,6 +321,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B90957421F90F5B00479F8F /* Build configuration list for PBXNativeTarget "refactor_DrivetimeTests" */;
 			buildPhases = (
+				FDBDDB19E8AD62D3CB242E84 /* [CP] Check Pods Manifest.lock */,
 				4B90956421F90F5B00479F8F /* Sources */,
 				4B90956521F90F5B00479F8F /* Frameworks */,
 				4B90956621F90F5B00479F8F /* Resources */,
@@ -308,6 +348,11 @@
 				TargetAttributes = {
 					4B90955321F90F5900479F8F = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					4B90956721F90F5B00479F8F = {
 						CreatedOnToolsVersion = 10.1;
@@ -343,6 +388,7 @@
 				4B90955F21F90F5B00479F8F /* Assets.xcassets in Resources */,
 				4B90955D21F90F5900479F8F /* Main.storyboard in Resources */,
 				4B9095BF22023C5D00479F8F /* JobRequestCell.xib in Resources */,
+				4BDDBA30222104B70048480E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +400,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		330380D2F267F82162725785 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-refactor_Drivetime/Pods-refactor_Drivetime-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-refactor_Drivetime/Pods-refactor_Drivetime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6726DF56B949D4ABA33548 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-refactor_Drivetime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDBDDB19E8AD62D3CB242E84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-refactor_DrivetimeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B90955021F90F5900479F8F /* Sources */ = {
@@ -539,8 +646,10 @@
 		};
 		4B90957221F90F5B00479F8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718EB95D85B54BF3F2F8E047 /* Pods-refactor_Drivetime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = refactor_Drivetime/refactor_Drivetime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AJ8S9UW9R5;
 				INFOPLIST_FILE = refactor_Drivetime/Info.plist;
@@ -548,7 +657,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "test.refactor-Drivetime";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aleph.refactor-Drivetime";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -557,8 +666,10 @@
 		};
 		4B90957321F90F5B00479F8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049B94D49A8F428201F607BB /* Pods-refactor_Drivetime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = refactor_Drivetime/refactor_Drivetime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AJ8S9UW9R5;
 				INFOPLIST_FILE = refactor_Drivetime/Info.plist;
@@ -566,7 +677,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "test.refactor-Drivetime";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aleph.refactor-Drivetime";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -575,6 +686,7 @@
 		};
 		4B90957521F90F5B00479F8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E98C8B4298E123C88B550BA1 /* Pods-refactor_DrivetimeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -596,6 +708,7 @@
 		};
 		4B90957621F90F5B00479F8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C040E0FCFD8C4A12C98BA3 /* Pods-refactor_DrivetimeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
